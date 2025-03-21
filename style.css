@@ -1,31 +1,11 @@
-*{
- margin: 0px;
- padding: 0px;
- box-sizing: border-box;
+div{
+
+    background-color: grey;
+}
 
 
+.div1{
+     
+    background-color: rgb(255, 183, 26);
+    color: red;
 }
-
-section{
-    min-height: auto;
-    background-image: url("kia-1.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-.container{
-    width :   50px;
-    margin: auto;
-    padding: 100;
-    display: flex;
-    flex-direction: row;
-}
-nav{
-height: auto;
-}
-nav h1{
-  height: auto;
-  float: left;
-  justify-items: center;
-  display: flex;
-}
-
