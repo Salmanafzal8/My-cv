@@ -3,17 +3,16 @@
   padding: 0;
 }
 body {
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
-    border: 5px solid #000000;
+
+
+
 }
+
 .name {
   width: 100%;
   text-align: center;
-  height: 20px;
   margin-top: 10px;
-  margin:  0;
+  margin: 0;
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 20px;
@@ -22,74 +21,81 @@ body {
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-a;
   align-items: center;
 }
 .nav-links {
-  width: 50%;
   height: 20px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   list-style-type: none;
-  margin-right: 100px;
-  margin-top: 50px;
-  margin-left: 300px;
+  padding-top: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
   font-size: 18px;
+  gap: 20px;
 }
 
 .hero-section h1 {
-  margin-top: 50px;
+  padding-top: 50px;
   text-align: center;
   font-weight: bold;
   font-size: xx-large;
 }
 
 .hero-section h3 {
-  margin-top: 20px;
+padding-top: 20px;
   text-align: center;
 }
 .content {
-  height: 250px;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 25px;
+  /* padding-top: 25px; */
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  border-color: black;
-  border-style: solid;
+  /* flex-direction: column; */
+  justify-content:space-around;
+  padding-top: 20px;
+  /* flex-wrap: wrap; */
+  
 }
 .Projects {
+  border-radius: 20px;
   display: flex;
-  width: 150px;
   flex-direction: column;
   justify-content: center;
-  border-right: 5px solid black;
-  padding: 20px;
+  border-right: 0px solid black;
+  width: 220px;
   align-items: center;
   list-style: none;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  border: 2px solid black;
+  background-color: #f2f2f2;
+
 }
 .work-experience {
+  border-radius: 20px;
   display: flex;
-  width: 150px;
+  /* width: 150px; */
   flex-direction: column;
   justify-content: center;
-  border-right: 5px solid black;
-  padding-right: 50px;
+  padding-left: 1px;
   align-items: right;
-  margin-left: 2px;
+  margin-left: 0px;
   list-style: none;
   list-style-type: none;
+  background-color: #f2f2f2;
+  border: 2px solid black;
+
 }
 .education {
+  border-radius: 20px;
   display: flex;
-  width: 150px;
+  /* width: 150px; */
   flex-direction: column;
   justify-content: center;
   padding: 20px;
   align-items: center;
+  border: 2px solid black;
+  background-color: #f2f2f2;
 }
 
 .opensource,
@@ -102,6 +108,7 @@ body {
   border-color: black;
   border-bottom-left-radius: 150px;
   border-width: 1px;
+  background-color: #f2f2f2;
 }
 .htmlproject {
   width: 150px;
@@ -110,6 +117,7 @@ body {
   list-style: none;
   margin-bottom: 10px;
   border-color: black;
+  background-color: #f2f2f2;
 }
 .calculator {
   border-top: 5px solid;
@@ -119,6 +127,7 @@ body {
   border-color: black;
   border-bottom-right-radius: 150px;
   border-width: 1px;
+  background-color: #f2f2f2;
 }
 .quiz-app {
   border-top: 5px solid;
@@ -128,6 +137,7 @@ body {
   border-color: black;
   box-sizing: border-box;
   border-width: 1px;
+  background-color: #f2f2f2;
 }
 .countdown {
   border-top: 5px solid;
@@ -136,17 +146,26 @@ body {
   margin-bottom: 10px;
   border-color: black;
   border-width: 1px;
+  background-color: #f2f2f2;
+  
 }
-.reviews{
-    display: flex;
-  flex-direction: column;
-
+.reviews {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 5px;
 }
 .reviews h1 {
   text-align: center;
   font-weight: bold;
   font-size: xx-large;
-
+  padding-top: 30px;
+}
+.review-heading h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  padding-top: 10px;
 }
 
 .review1 {
@@ -160,6 +179,8 @@ body {
   list-style: none;
   margin-bottom: 10px;
   background-color: #f2f2f2;
+  border-color: black;
+  border-radius: 20px;
 }
 .review2 {
   width: 150px;
@@ -172,6 +193,8 @@ body {
   list-style: none;
   margin-bottom: 10px;
   background-color: #f2f2f2;
+  border-color: black;
+  border-radius: 20px;
 }
 .review3 {
   width: 150px;
@@ -184,30 +207,84 @@ body {
   list-style: none;
   margin-bottom: 10px;
   background-color: #f2f2f2;
+  border-color: black;
+  border-radius: 20px;
 }
-.reviews , .review1 , .review2 , .review3{
-    
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+
+.review-heading {
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
 }
-.review-heading{
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-a{
+a {
   text-decoration: none;
   color: black;
   margin-left: 10;
-
 }
-.copyright{
-
+.copyright {
   text-align: center;
 }
+
+
+@media screen and (max-width: 600px) {
+  /* .review-heading h1 {
+
+    padding-top: 250px;
+  } */
+  .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* .review-heading h1 {
+
+    padding-top: 250px;
+  } */
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
+/* @media screen and (min-width: 510px) {
+  /*for mobile
+  .review-heading h1 {
+
+    
+    padding-top: 250px;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+}
+
+
+ /*@media screen and (min-width: 310px) {
+    /*for mobile*
+    .review-heading h1 {
+  
+      padding-top: 250px;
+    }
+    .content {
+      height: 250px;
+      padding-top: 200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+}
+
+  
